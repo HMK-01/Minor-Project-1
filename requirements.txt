@@ -1,5 +1,7 @@
-opencv-python==4.7.0.68
-mediapipe==0.10.21
+opencv-python-headless
+mediapipe
 scikit-learn>=1.4.0
 streamlit
 Pillow
+protobuf<4
+numpy<2
