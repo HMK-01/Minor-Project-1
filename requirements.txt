@@ -3,5 +3,3 @@ mediapipe==0.10.14
 scikit-learn>=1.4.0
 streamlit
 Pillow
-protobuf<4
-numpy<2
