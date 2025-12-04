@@ -1,5 +1,6 @@
-opencv-python-headless
+streamlit
 mediapipe==0.10.14
 scikit-learn>=1.4.0
-streamlit
 Pillow
+
+
