@@ -5,9 +5,7 @@ import numpy as np
 import streamlit as st
 from PIL import Image
 
-# --------------------------
 # Load model & MediaPipe
-# --------------------------
 
 @st.cache_resource
 def load_model():
@@ -38,11 +36,7 @@ labels_dict = {
     24: 'Y', 25: 'Z'
 }
 
-
-# --------------------------
 # Core prediction function
-# (matches your inference logic)
-# --------------------------
 
 def predict_from_bgr(image_bgr, model, hands):
     data_aux = []
@@ -105,9 +99,8 @@ def predict_from_bgr(image_bgr, model, hands):
     return None, annotated
 
 
-# --------------------------
+
 # Streamlit UI
-# --------------------------
 
 def main():
     st.set_page_config(page_title="Sign Language Detector", layout="wide")
@@ -223,3 +216,4 @@ def main():
 
 if __name__ == "__main__":
     main()
+
